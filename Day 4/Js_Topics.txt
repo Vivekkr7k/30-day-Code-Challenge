@@ -1,1 +1,9 @@
-Type Casting
+1 >  Type Casting -   Converting Strings to Numbers -> The global method Number() converts a variable (or a value) into a number.      Ex -  Number("3.14")
+		      Converting Numbers to Strings -> The global method String() can convert numbers to strings.                      Ex - String(100 + 23)  // returns a string from a number from an expression
+		      Converting Dates to Numbers ->  The global method Number() can be used to convert dates to numbers.              Ex -  d = new Date();  Number(d) 
+	              Converting Dates to Strings ->  The global method String() can convert dates to strings.            Ex- String(Date())  // returns "Thu Jul 17 2014 15:38:19 GMT+0200 (W. Europe Daylight Time)"
+		      Converting Booleans to Numbers -> The global method Number() can also convert booleans to numbers.               Ex- Number(false)   // returns 0  ,   Number(true) // returns 1 
+                      Converting Booleans to Strings - > The global method String() can convert booleans to strings.                   Ex - String(false)  // returns "false" ,   String(true)  // returns "true"
+
+
+2>  
